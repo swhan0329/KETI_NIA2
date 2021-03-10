@@ -37,7 +37,7 @@ git clone https://github.com/swhan0329/KETI_NIA2/
 │   ├── docs  
 │   ├── projects  
 │   ├── tests  
-│   └── tools  
+│   └── tools  
 
 ## 도커 이미지 사용 매뉴얼
 
