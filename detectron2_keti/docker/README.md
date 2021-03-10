@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/1wGSxuDJSgGs9Pa0rQgwfKxj8E2qw6vU1?usp=sha
 
 3. 데이터셋 경로 변경
 
-데이터셋을 소스 코드 clone 한 폴더 내부의 detectron2/detectron2/dataset 로 옮김
+데이터셋을 소스 코드 clone 한 폴더 내부의 detectron2/dataset 로 옮김
 
 * 객체 검출/분할 코드 트리
 
