@@ -66,4 +66,6 @@ docker run --runtime=nvidia -i -t --name=detectron2 --mount type=bind,source=/ho
 3. 테스트 스크립트 실행
 
 ```bash
+cd detectron2
+python test.py
 ```
