@@ -41,7 +41,7 @@ detectron2
 1. Docker 이미지 로드
 
 ```bash
-docker load -i detectron2.tar
+docker load -i detectron2-keti.tar
 ```
 
 2. Docker 컨테이너 생성
