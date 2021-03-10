@@ -69,10 +69,8 @@ docker run --runtime=nvidia -i -t --name=detectron2 --mount type=bind,source=/ho
 
 4. 테스트 스크립트 실행
 
-* 경로는 detectron2로 변경
-```bash
-cd detectron2
-```
+```bash cd detectron2``` 구문을 사용하여 경로를 detectron2로 변경 후, 객체 검출, 분할 테스트를 
+
 
 * 객체 검출 테스트 스크립트
 
