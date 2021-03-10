@@ -12,6 +12,15 @@ git clone https://github.com/swhan0329/KETI_NIA2/
 
 구글 드라이브 또는 AI HUB에 올라와있는 (detection, segmentation) test 데이터셋 다운
 
+* 객체 검출 test 데이터셋
+
+https://drive.google.com/drive/folders/1I2niZ6IKNSq1B6Gr6GS_Vfe-CIfwJ0fb?usp=sharing
+
+* 객체 분할 test 데이터셋
+
+https://drive.google.com/drive/folders/1wGSxuDJSgGs9Pa0rQgwfKxj8E2qw6vU1?usp=sharing
+
+
 3. 데이터셋 경로 변경
 
 데이터셋을 소스 코드 clone 한 폴더 내부의 detectron2/detectron2/dataset 로 옮김
