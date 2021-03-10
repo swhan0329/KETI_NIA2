@@ -14,4 +14,5 @@
 ## 객체 검출, 분할 모델
 
 본 과제에서 구축한 차량 검출, 분할 데이터셋 검증을 위해 객체 검출, 분할 모델을 사용
-자세한 설명은 객체 검출, 분할 [README.md] 파일에서 확인할 수 있음
+
+자세한 설명은 객체 검출, 분할 [README.md](https://github.com/swhan0329/KETI_NIA2/blob/master/detectron2_keti/README.md) 파일에서 확인할 수 있음
