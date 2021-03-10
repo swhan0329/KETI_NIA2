@@ -19,24 +19,43 @@ git clone https://github.com/swhan0329/KETI_NIA2/
 * 객체 검출/분할 코드 트리
 
 ├── dataset
+
+│   ├── test_BB
+
+│   ├── train_BB
+
+│   ├── test_BB.json
+
+│   ├── train_BB.json
+
 │   ├── test_PS
+
 │   ├── train_PS
+
 │   ├── test_PS.json
+
 │   ├── train_PS.json
-│   ├── test_PS
-│   ├── train_PS
-│   ├── test_PS.json
-│   ├── train_PS.json
+
 ├── detectron2
+
 │   ├── configs
+
 │   ├── datasets
+
 │   ├── demo
+
 │   ├── detectron2
+
 │   ├── dev
+
 │   ├── docker
+
 │   ├── docs
+
 │   ├── projects
+
 │   ├── tests
+
 │   └── tools
 
 ## 도커 이미지 사용 매뉴얼
