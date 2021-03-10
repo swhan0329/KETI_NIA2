@@ -64,7 +64,7 @@ docker load -i detectron2-keti.tar
 * source: 코드 및 데이터셋이 있는 폴더
 
 ```bash
-docker run --runtime=nvidia -i -t --name=detectron2 --mount type=bind,source=/home/super/Desktop/yh/detectron2,target=/home/appuser detectron2:v0
+docker run --gpus all -it --name=detectron2 --mount type=bind,source=/home/super/sw/detectron2,target=/root/share detectron2:v0
 ```
 
 4. 테스트 스크립트 실행
