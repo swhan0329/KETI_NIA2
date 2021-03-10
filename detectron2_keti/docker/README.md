@@ -21,13 +21,13 @@ git clone https://github.com/swhan0329/KETI_NIA2/
 detectron2  
 ├── configs  
 ├── dataset  
-│     ├── train_BB.json  
-│     ├── test_BB.json  
-│     ├── test_BB  
-│     ├── train_PS.json  
-│     ├── test_PS.json  
-│     ├── train_PS  
-│     ├── test_PS  
+│       ├── train_BB.json  
+│       ├── test_BB.json  
+│       ├── test_BB  
+│       ├── train_PS.json  
+│       ├── test_PS.json  
+│       ├── train_PS  
+│       ├── test_PS  
 ├── demo  
 ├── detectron2  
 ├── dev  
