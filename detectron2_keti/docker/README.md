@@ -64,12 +64,24 @@ docker load -i detectron2-keti.tar
 * source: 코드 및 데이터셋이 있는 폴더
 
 ```bash
-docker run --runtime=nvidia -i -t --name=detectron2 --mount type=bind,source=/home/super/Desktop/yh/detectron,target=/home/appuser detectron2
+docker run --runtime=nvidia -i -t --name=detectron2 --mount type=bind,source=/home/super/Desktop/yh/detectron2,target=/home/appuser detectron2:v0
 ```
 
 4. 테스트 스크립트 실행
 
+* 경로는 detectron2로 변경
 ```bash
 cd detectron2
-python test.py
+```
+
+* 객체 검출 테스트 스크립트
+
+```bash
+python test_BB.py
+```
+
+* 객체 분할 테스트 스크립트
+
+```bash
+python test_PS.py
 ```
