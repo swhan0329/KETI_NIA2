@@ -14,4 +14,18 @@ Facebook AI Research에서 만든 Detectron2 공식 GitHub 주소
 
 https://github.com/facebookresearch/detectron2
 
-## 사용방법
+## 실행 환경 세팅
+
+Docker 이미지를 이용하여 실행 환경 세팅
+docker 실행 방법은 docker [README.md]() 파일을 참고
+
+## Test 방법
+
+1. 객체 검출, 분할 도커 컨테이너 실행 및 접속
+
+```bash
+docker start detectron2
+docker attach detectron2
+```
+
+
