@@ -42,7 +42,7 @@ cfg = get_cfg()
 cfg.merge_from_file("../configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")
 cfg.DATASETS.TRAIN = ("vehicle_train_PS",)
 cfg.DATASETS.TEST = ("vehicle_test_PS",)
-cfg.MODEL.WEIGHTS = "./weights/model_final.pth"
+cfg.MODEL.WEIGHTS = "./weights/model_final_PS.pth"
 
 cfg.DATALOADER.NUM_WORKERS = 40
 cfg.SOLVER.IMS_PER_BATCH = 10
