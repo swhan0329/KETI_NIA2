@@ -17,6 +17,7 @@ https://github.com/facebookresearch/detectron2
 ## 실행 환경 세팅
 
 Docker 이미지를 이용하여 실행 환경 세팅
+
 docker 실행 방법은 docker [README.md](https://github.com/swhan0329/KETI_NIA2/blob/master/detectron2_keti/docker/README.md) 파일을 참고
 
 ## Test 방법
