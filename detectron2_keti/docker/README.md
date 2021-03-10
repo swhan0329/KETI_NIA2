@@ -49,13 +49,17 @@ detectron2
 
 ## 도커 이미지 사용 매뉴얼
 
-1. Docker 이미지 로드
+1. Docker 이미지 다운로드(객체 검출, 분할 동일)
+
+link: https://drive.google.com/drive/folders/1faCGuDeqO7noYwHAvniXVN7QmyZUX1-m?usp=sharing
+
+2. Docker 이미지 로드
 
 ```bash
 docker load -i detectron2-keti.tar
 ```
 
-2. Docker 컨테이너 생성
+3. Docker 컨테이너 생성
 
 * source: 코드 및 데이터셋이 있는 폴더
 
@@ -63,7 +67,7 @@ docker load -i detectron2-keti.tar
 docker run --runtime=nvidia -i -t --name=detectron2 --mount type=bind,source=/home/super/Desktop/yh/detectron,target=/home/appuser detectron2
 ```
 
-3. 테스트 스크립트 실행
+4. 테스트 스크립트 실행
 
 ```bash
 cd detectron2
