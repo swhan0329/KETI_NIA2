@@ -38,6 +38,9 @@ detectron2
 │   ├── test_PS.json  
 │   ├── train_PS  
 │   ├── test_PS  
+├── weights 
+│   ├── model_final_PS.pth 
+│   ├── model_final_BB.pth  
 ├── demo  
 ├── detectron2  
 ├── dev  
