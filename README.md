@@ -16,3 +16,9 @@
 본 과제에서 구축한 차량 검출, 분할 데이터셋 검증을 위해 객체 검출, 분할 모델을 사용
 
 자세한 설명은 객체 검출, 분할 [README.md](https://github.com/swhan0329/KETI_NIA2/blob/master/detectron2_keti/README.md) 파일에서 확인할 수 있음
+
+### ETC
+
+본 프로젝트는 Google의 GCP Credit 지원을 받고 있습니다.
+
+This project is supported by the Google ML Ecosystem team for providing GCP credit.
